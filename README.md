@@ -1,6 +1,6 @@
 # lumen-rest-test
 
-Демо сервер [sivka-systems.ru](http://sivka-systems.ru/)
+Демо сервер [sivka-systems.ru](http://sivka-systems.ru/) можно сразу тестировать.
 
 
 ### Установка
@@ -8,7 +8,9 @@
 ```
 git clone https://github.com/alexSivka/lumen-rest.git
 
-docker-compose up -d
+cd lumen-rest
+
+docker-compose up -d --build site
 ```
 
 Для работы с апи необходимо получить токен по запросу
