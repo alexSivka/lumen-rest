@@ -13,6 +13,24 @@ cd lumen-rest
 docker-compose up -d --build site
 ```
 
+Контайнер доступен по адресу http://localhost
+
+базу можно посмотреть по адресу http://localhost/adminer.php
+```
+host: mysql
+user: root
+pass: root
+database: test
+```
+
+База уже с данными и таблицами. Код в папке src. тесты в src/tests.
+Папку src также можно скопировать в свое окружение и запустить
+```
+php artisan migrate --seed
+```
+
+### api
+
 Для работы с апи необходимо получить токен по запросу
 
 ```
