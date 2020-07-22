@@ -22,6 +22,8 @@ params email: test@example.com, password: test
 
 ### методы 
 
+Ко всем запросам необходимо добавлять заголовок Authorization: bearer your_token
+
 К каждому участнику может быть привязано несколько мероприятий
 
 Создание участника
